@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=|, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylos.css">
+    <title>Mi Primera Pagina Web con JavaScript</title>
+
+    <!--Forma #2 - Etiqueta Script en Head---->
+    <script defer>
+        alert('Se ejecuta desde el Head');
+    </script>
+
+</head>
+<body>
+    <h1>Hola Mundo!</h1>
+
+    <!----Forma #1 - Etiqueta Script--->
+    <script>
+
+        //Notas Inportantes:
+        // - JavaScript es sensible a mayusculas y minisculas.
+        // - Respetar la sintaxis de tipo Camel Case. getElementById
+        // - Punto y coma al final de cada sentencia.
+
+        // Comentarios de Tipo de Linea
+
+        /* 
+          Comentarios de varias Lineas
+          (tipo Bloque)
+
+        */
+       
+        // El comentario nose ejecuta.
+        // alert('Este codigo nose Ejecuta');
+
+
+        document.write('Hola Mundo!');
+        alert('Hola Soy una Alerta');
+        console.log('Hola desde la Consola');
+    </script>
+</body>
+
+<!----Forma #3 - Archivo Externo--->
+<script src="./index.js"></script>
+</html>
